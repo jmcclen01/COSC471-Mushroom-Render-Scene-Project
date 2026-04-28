@@ -1,0 +1,52 @@
+/**
+ * Basic page styling.
+ * The canvas fills the browser window, and the overlay sits above it.
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f1116;
+  color: #e8e8e8;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+/**
+ * Small readable info panel for the demo.
+ * The transparent background keeps the scene visible while making the text readable.
+ */
+.overlay {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 12px 14px;
+  max-width: 360px;
+  line-height: 1.4;
+  backdrop-filter: blur(6px);
+}
+
+.overlay h1 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.overlay p {
+  margin: 4px 0;
+  font-size: 13px;
+}
