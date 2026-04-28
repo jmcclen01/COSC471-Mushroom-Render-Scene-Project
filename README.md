@@ -7,9 +7,9 @@ The goal is to render a 3D object and let the user interact with lighting in rea
 
 - Renders a mushroom as the main object in a 3D scene  
 - Supports loading a downloaded `.obj` model  
-- Falls back to a built-in mushroom if no model is added yet  
+- Falls back to a built in mushroom if no model is added yet  
 - Places the object on a pedestal with a background scene  
-- Uses real-time lighting  
+- Uses real time lighting  
 - Includes GUI controls for:
   - main light intensity  
   - main light color  
