@@ -1,6 +1,6 @@
 # Interactive Mushroom Lighting Renderer
 
-A simple Computer Graphics project built with Three.js.  
+Our Computer Graphics project, built with Three.js.  
 The goal is to render a 3D object and let the user interact with lighting in real time to see how it affects the way the object looks.
 
 ## What it does
